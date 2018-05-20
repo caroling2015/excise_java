@@ -25,6 +25,7 @@ public class Base64Test
         
         String[] b = strImg.split(",");
         GenerateImage(b[1]);  
+        
     }  
     
     
@@ -43,7 +44,7 @@ public class Base64Test
                     b[i]+=256;  
                 }  
             }  
-            String imgFilePath = "img1.png";  
+            String imgFilePath = "img2.png";  
             OutputStream out = new FileOutputStream(imgFilePath);      
             out.write(b);  
             out.flush();  

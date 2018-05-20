@@ -1,0 +1,7 @@
+package com.core;
+
+
+import javafx.application.Application;
+public class ShowImage extends Application{
+
+}
